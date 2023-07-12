@@ -20,4 +20,34 @@ let result= arr.reduce(sumOfOdd,0);
 
 console.log(result);
 
+/* Find the sum of odd indices.
+
+let arr = [2,3,4,4,6,7,8];
+
+const sumOfOdd = (acc, curr,index) => index%2!=0? acc+=curr: acc;
+  
+ let result= arr.reduce(sumOfOdd,0);
+
+console.log(result);
+
+/* Find the biggest number in an array
+
+let arr = [2,3,4,9,6,7,8];
+
+const sumOfOdd = (acc, curr,index) => curr>acc? acc=curr: acc;  
+ let result= arr.reduce(sumOfOdd,0);
+console.log(result);
+
+/* Find the number divible 10 in array.
+
+let arr = [2,3,4,9,6,7,8,10,20];
+
+const divbyten =  (curr,index) => curr%10===0;
+  
+ let result= arr.filter(divbyten);
+
+console.log(result);
+
+
+
 

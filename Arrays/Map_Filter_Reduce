@@ -48,6 +48,16 @@ const divbyten =  (curr,index) => curr%10===0;
 
 console.log(result);
 
+/* Return an array where odd number is incremented by 1 and even number is decremented by 1.
+
+let arr = [2,3,4,9,6,7,8,10,20];
+
+const incbyone =  (curr,index) => curr%2==0? --curr: ++curr;
+  
+ let result= arr.map(incbyone);
+
+console.log(result);
+
 
 
 

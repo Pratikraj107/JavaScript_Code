@@ -1,0 +1,8 @@
+/*Write a function that takes an object (a) and a number (b) as arguments. Multiply all values of 'a' by 'b'. Return the resulting object.
+/* Solution
+
+function myFunction(a, b)
+{
+const multiplyByValue = (item, index) => item * b; 
+return Object.values(a).map(multiplyByValue);
+}

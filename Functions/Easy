@@ -6,3 +6,11 @@ function myFunction(a, b)
 const multiplyByValue = (item, index) => item * b; 
 return Object.values(a).map(multiplyByValue);
 }
+
+/* Write a function that takes an object as argument. It should return an object with all original object properties. except for the property with key 'b'
+/* Solution 
+
+function myFunction(obj) {
+  const { b, ...rest } = obj;
+  return rest;
+}
